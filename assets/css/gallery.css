@@ -1,0 +1,45 @@
+header {
+    height: 0vh;
+    background: transparent;
+}
+
+main {
+    column-count: 1;
+    break-inside: avoid;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 4.3%;
+  
+    & img {
+      width: 100%;
+      margin-bottom: 0.25rem;
+    }
+
+    & img:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
+
+    & img:not(:hover) {
+        transform: scale(1.0);
+        transition: transform 0.3s ease;
+    }
+  }
+  
+  @media (width > 700px) {
+    main {
+      column-count: 2;
+    }
+  }
+  
+  @media (width > 1000px) {
+    main {
+      column-count: 3;
+    }
+  }
+  
+  @media (width > 1300px) {
+    main {
+      column-count: 4;
+    }
+  }

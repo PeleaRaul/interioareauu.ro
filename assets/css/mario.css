@@ -1,0 +1,27 @@
+header {
+    height: AUTO;
+    background: transparent;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+section {
+    margin: auto;
+}
+
+.game {
+    z-index: 0;
+    width: 100vw;
+    height: 120vh;
+}
